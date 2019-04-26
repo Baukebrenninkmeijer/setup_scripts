@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 conda create --name tf
 conda create -n tensorflow pip python=3.6.8
-conda install scikit-learn
+conda install scikit-learn pandas tqdm scipy seaborn
 
 conda create --name fastai python=3.6.8
 activate fastai
